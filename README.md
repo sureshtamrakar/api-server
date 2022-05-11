@@ -16,4 +16,4 @@
 | --- | --- | --- | --- |
 | `/register` | POST | ```{ "email": "johndoe@gmail.com","name" : "John Doe","gender" : "Male","country" : "US","age" : 26,"password": "password"}``` | *Email should be unique*
 | `/login` | POST | ```{"email" : "johndoe@gmail.com","password" : "password"}```| Gives Access-Token in header after valid credentials
-| `/user` | GET | **_Not required_** | This requires authentication, pass access-token value provided after login as bearer token in header
+| `/user` | GET | **_Not required_** | This requires authentication, pass access-token value provided after login as bearer
